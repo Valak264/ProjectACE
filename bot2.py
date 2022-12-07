@@ -9,7 +9,7 @@ VT_APIKEY = os.getenv('VT_API_KEY')
 
 intent = discord.Intents.default()
 intent.message_content = True
-intent.messages = True
+
 
 discord_client = discord.Client(intents=intent)
 
